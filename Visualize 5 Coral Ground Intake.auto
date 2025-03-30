@@ -1,0 +1,43 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Strong Start To Reef 3"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Reef 3 To Far LS To Reef 12"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Reef 12 To Far LS To Reef 11"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Reef 11 To Upper Mid To Reef 10"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Reef 10 To Lower Mid To Reef 9"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}

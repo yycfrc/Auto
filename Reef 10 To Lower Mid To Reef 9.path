@@ -1,0 +1,93 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.282,
+        "y": 4.198
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.6136378566786242,
+        "y": 3.4576338437132232
+      },
+      "isLocked": false,
+      "linkedName": "Reef Point 10"
+    },
+    {
+      "anchor": {
+        "x": 1.284,
+        "y": 3.98
+      },
+      "prevControl": {
+        "x": 1.4241643523907737,
+        "y": 4.187011966607912
+      },
+      "nextControl": {
+        "x": 1.088,
+        "y": 3.784
+      },
+      "isLocked": false,
+      "linkedName": "Lower Mid Point"
+    },
+    {
+      "anchor": {
+        "x": 3.282,
+        "y": 3.828
+      },
+      "prevControl": {
+        "x": 1.8260237352819804,
+        "y": 3.269336311742242
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Reef Point 9"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 1.0,
+      "rotationDegrees": 0.0
+    },
+    {
+      "waypointRelativePos": 2.0,
+      "rotationDegrees": 0.0
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.85,
+      "maxWaypointRelativePos": 1.15,
+      "constraints": {
+        "maxVelocity": 5.0,
+        "maxAcceleration": 5.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 360.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 360.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": null,
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}
